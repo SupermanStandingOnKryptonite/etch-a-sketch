@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem;
+  font-family: "Fira Code", monospace;
+}
+
+.sketch-area {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  height: 50vh;
+  width: 60vh;
+  margin: 1rem;
+}
+
+.square {
+  height: 25px;
+  width: 25px;
+  background-color: #d6cdcd;
+  border: solid 0.1px black;
+}
