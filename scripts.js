@@ -21,11 +21,11 @@ square.forEach((cell) =>
     } else if (Math.round(rand) === 1) {
       cell.style.backgroundColor = "coral";
     } else if (Math.round(rand) === 2) {
-      cell.style.backgroundColor = "red";
+      cell.style.backgroundColor = "crimson";
     } else if (Math.round(rand) === 3) {
       cell.style.backgroundColor = "blue";
     } else if (Math.round(rand) === 4) {
-      cell.style.backgroundColor = "white";
+      cell.style.backgroundColor = "turquoise";
     } else if (Math.round(rand) === 5) {
       cell.style.backgroundColor = "orange";
     } else if (Math.round(rand) === 6) {
@@ -35,7 +35,7 @@ square.forEach((cell) =>
     } else if (Math.round(rand) === 8) {
       cell.style.backgroundColor = "purple";
     } else if (Math.round(rand) === 9) {
-      cell.style.backgroundColor = "black";
+      cell.style.backgroundColor = "deeppink";
     } else if (Math.round(rand) === 10) {
       cell.style.backgroundColor = "fuchsia";
     }
